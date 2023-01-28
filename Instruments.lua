@@ -177,10 +177,7 @@ local instruments = {
    {"rbxasset://Sounds/bass.wav", "telephone ring"},
    {"rbxassetid://106708146", "helicopter"},
    {"rbxassetid://10209257", "applause"},
-   {"rbxassetid://5869422451", "oof"},
-   {"rbxassetid://3546992780", "hood classic"},
-   {"rbxassetid://1835905087", "alien"},
-   {"rbxassetid://775395533", "chinese", settings = {["Offset"] = -6}}
+   {"rbxassetid://775395533", "chinese", settings = {["Offset"] = -6}} -- for the memes :))
 }
 
 return instruments
