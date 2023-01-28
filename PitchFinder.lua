@@ -1,6 +1,6 @@
 local PitchFinder = {}
 
-function PitchFinder.notetopitch(note, offset)
+function PitchFinder.NotePitch(note, offset)
   return (440 / 32) * math.pow(2, ((note + offset) / 12)) / 440
 end
 
