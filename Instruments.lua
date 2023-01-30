@@ -11,6 +11,7 @@ local instruments = {
       [53] = "rbxassetid://31173898",
       [59] = "rbxassetid://31173898",
       [38] = "rbxassetid://31173799",
+      [39] = "rbxassetid://9114763106",
       [40] = "rbxassetid://31173799",
       [41] = "rbxassetid://31173881",
       [43] = "rbxassetid://31173881",
