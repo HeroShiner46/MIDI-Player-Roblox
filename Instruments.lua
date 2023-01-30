@@ -72,7 +72,7 @@ local instruments = {
    {"rbxassetid://4007485270", "reed organ", settings = {["Offset"] = 1}, ["Gain"] = 0.3},
    {"rbxassetid://12857654", "accordion"},
    {"rbxassetid://31173820", "room kit"},
-   {"rbxasset://Sounds/bass.wav", "harmonica"},
+   {"12857654", "harmonica"},
    {"rbxassetid://12857654", "tango accordion"}, --??
    {"rbxassetid://4007485270", "acoustic guitar (nylon)", settings = {["Gain"] = 0.3, ["Offset"] = 1}},
    {"rbxassetid://4007485270", "acoustic guitar (steel)", settings = {["Gain"] = 0.3, ["Offset"] = 1}},
