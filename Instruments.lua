@@ -99,8 +99,8 @@ local instruments = {
    {"rbxassetid://584691395", "pizzicato strings", settings = {["Offset"] = 0, ["Gain"] = 0.8}},
    {"rbxassetid://109618940", "orchestral harp"}, --fix
    {"rbxassetid://109618940", "timpani"}, -- fix
-   {"rbxassetid://1846986997", "string ensemble 1", settings = {["Offset"] = 12}},
-   {"rbxassetid://1846986997", "string ensemble 2", settings = {["Offset"] = 12}},
+   {"rbxassetid://9040512197", "string ensemble 1", settings = {["Gain"] = -0.2, ["Loop"] = true, ["Offset"] = 3}},
+   {"rbxassetid://9040512197", "string ensemble 2", settings = {["Gain"] = -0.2, ["Loop"] = true, ["Offset"] = 3}},
    {"rbxassetid://11998777", "synthstrings 1"},
    {"rbxassetid://11998777", "synthstrings 2"},
    {"rbxassetid://9040512197", "choir aahs", settings = {["Gain"] = -0.2, ["Loop"] = true, ["Offset"] = 3}},
