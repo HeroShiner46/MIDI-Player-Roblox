@@ -115,10 +115,10 @@ local instruments = {
    {"rbxassetid://99666917", "brass section", settings = {["Offset"] = -3}},
    {"rbxasset://Sounds/bass.wav", "synth brass 1"}, --???
    {"rbxasset://Sounds/bass.wav", "synth brass 2"}, --???
-   {"rbxassetid://13418521", "soprano sax", settings = {["Offset"] = -1}},
-   {"rbxassetid://13418521", "alto sax", settings = {["Offset"] = -1}},
-   {"rbxassetid://13418521", "tenor sax", settings = {["Offset"] = -1}},
-   {"rbxassetid://13418521", "baritone sax", settings = {["Offset"] = -1}},
+   {"rbxassetid://9040512197", "soprano sax", settings = {["Gain"] = -0.2, ["Loop"] = true, ["Offset"] = 3}},
+   {"rbxassetid://9040512197", "alto sax", settings = {["Gain"] = -0.2, ["Loop"] = true, ["Offset"] = 3}},
+   {"rbxassetid://9040512197", "tenor sax", settings = {["Gain"] = -0.2, ["Loop"] = true, ["Offset"] = 3}},
+   {"rbxassetid://9040512197", "baritone sax", settings = {["Gain"] = -0.2, ["Loop"] = true, ["Offset"] = 3}},
    {"rbxassetid://1846986997", "oboe", settings = {["Offset"] = 12}},
    {"rbxassetid://13417380", "english horn"}, --???
    {"rbxassetid://13424334", "bassoon", settings = {["Offset"] = -11}},
