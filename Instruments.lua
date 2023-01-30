@@ -72,7 +72,7 @@ local instruments = {
    {"rbxassetid://4007485270", "reed organ", settings = {["Offset"] = 1}, ["Gain"] = 0.3},
    {"rbxassetid://12857654", "accordion"},
    {"rbxassetid://31173820", "room kit"},
-   {"12857654", "harmonica"},
+   {"rbxassetid://12857654", "harmonica"},
    {"rbxassetid://12857654", "tango accordion"}, --??
    {"rbxassetid://4007485270", "acoustic guitar (nylon)", settings = {["Gain"] = 0.3, ["Offset"] = 1}},
    {"rbxassetid://4007485270", "acoustic guitar (steel)", settings = {["Gain"] = 0.3, ["Offset"] = 1}},
@@ -95,7 +95,7 @@ local instruments = {
    {"rbxassetid://12857654", "viola"},
    {"rbxassetid://12857654", "cello"},
    {"rbxassetid://9040512197", "contrabass", settings = {["Gain"] = -0.2, ["Loop"] = true, ["Offset"] = 3}},
-   {"rbxassetid://109618754", "tremolo strings"},
+   {"rbxassetid://109618940", "tremolo strings"},
    {"rbxassetid://584691395", "pizzicato strings", settings = {["Offset"] = 0, ["Gain"] = 0.8}},
    {"rbxassetid://109618940", "orchestral harp"}, --fix
    {"rbxassetid://109618940", "timpani"}, -- fix
@@ -109,16 +109,16 @@ local instruments = {
    {"rbxasset://Sounds/bass.wav", "orchestral hit"}, --???
    {"rbxassetid://1846986997", "trumpet", settings = {["Offset"] = 12}}, --fix
    {"rbxassetid://1846986997", "trombone", settings = {["Offset"] = 12}}, --fix
-   {"rbxassetid://1846986997", "tuba"},
+   {"rbxassetid://1846986997", "tuba", settings = {["Offset"] = 12}},
    {"rbxassetid://1846986997", "muted trumpet", settings = {["Offset"] = 12}},
    {"rbxassetid://1846986997", "french horn", settings = {["Offset"] = 12}},
    {"rbxassetid://99666917", "brass section", settings = {["Offset"] = -3}},
    {"rbxasset://Sounds/bass.wav", "synth brass 1"}, --???
    {"rbxasset://Sounds/bass.wav", "synth brass 2"}, --???
-   {"rbxassetid://9040512197", "soprano sax", settings = {["Gain"] = -0.2, ["Loop"] = true, ["Offset"] = 3}},
-   {"rbxassetid://9040512197", "alto sax", settings = {["Gain"] = -0.2, ["Loop"] = true, ["Offset"] = 3}},
-   {"rbxassetid://9040512197", "tenor sax", settings = {["Gain"] = -0.2, ["Loop"] = true, ["Offset"] = 3}},
-   {"rbxassetid://9040512197", "baritone sax", settings = {["Gain"] = -0.2, ["Loop"] = true, ["Offset"] = 3}},
+   {"rbxassetid://13418521", "soprano sax", settings = {["Offset"] = 0}},
+   {"rbxassetid://13418521", "alto sax", settings = {["Offset"] = 0}},
+   {"rbxassetid://13418521", "tenor sax", settings = {["Offset"] = 0}},
+   {"rbxassetid://13418521", "baritone sax", settings = {["Offset"] = 0}},
    {"rbxassetid://1846986997", "oboe", settings = {["Offset"] = 12}}, --fix
    {"rbxassetid://13417380", "english horn"}, --???
    {"rbxassetid://13424334", "bassoon", settings = {["Offset"] = -11}},
