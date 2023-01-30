@@ -98,8 +98,8 @@ local instruments = {
    {"rbxassetid://584691395", "pizzicato strings", settings = {["Offset"] = 0, ["Gain"] = 0.8}},
    {"rbxassetid://109618940", "orchestral harp"}, --fix
    {"rbxassetid://109618940", "timpani"}, -- fix
-   {"rbxassetid://75338648", "string ensemble 1"},
-   {"rbxassetid://75338648", "string ensemble 2"},
+   {"rbxassetid://1846986997", "string ensemble 1", settings = {["Offset"] = 12}},
+   {"rbxassetid://1846986997", "string ensemble 2", settings = {["Offset"] = 12}},
    {"rbxassetid://11998777", "synthstrings 1"},
    {"rbxassetid://11998777", "synthstrings 2"},
    {"rbxassetid://9040512197", "choir aahs", settings = {["Gain"] = -0.2, ["Loop"] = true, ["Offset"] = 3}},
@@ -118,11 +118,11 @@ local instruments = {
    {"rbxassetid://9040512197", "alto sax", settings = {["Gain"] = -0.2, ["Loop"] = true, ["Offset"] = 3}},
    {"rbxassetid://9040512197", "tenor sax", settings = {["Gain"] = -0.2, ["Loop"] = true, ["Offset"] = 3}},
    {"rbxassetid://9040512197", "baritone sax", settings = {["Gain"] = -0.2, ["Loop"] = true, ["Offset"] = 3}},
-   {"rbxassetid://1846986991", "oboe"}, --fix
-   {"rbxassetid://13417380", "english horn"},
+   {"rbxassetid://1846986997", "oboe", settings = {["Offset"] = 12}}, --fix
+   {"rbxassetid://13417380", "english horn"}, --???
    {"rbxassetid://13424334", "bassoon", settings = {["Offset"] = -11}},
-   {"rbxassetid://75338648", "clarinet"},
-   {"rbxassetid://75338648", "piccolo"},
+   {"rbxassetid://9040512197", "clarinet", settings = {["Gain"] = -0.2, ["Loop"] = true, ["Offset"] = 3}},
+   {"rbxassetid://75338648", "piccolo"}, --fix
    {"rbxassetid://9040512197", "flute", settings = {["Gain"] = -0.2, ["Loop"] = true, ["Offset"] = 3}}, --75338648
    {"rbxassetid://75338648", "recorder", settings = {["Offset"] = -13}},
    {"rbxassetid://9040512197", "pan flute", settings = {["Gain"] = -0.2, ["Loop"] = true, ["Offset"] = 3}},
