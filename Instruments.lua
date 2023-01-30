@@ -115,7 +115,7 @@ local instruments = {
    {"rbxassetid://99666917", "brass section", settings = {["Offset"] = -3}},
    {"rbxasset://Sounds/bass.wav", "synth brass 1"}, --???
    {"rbxasset://Sounds/bass.wav", "synth brass 2"}, --???
-   {"rbxassetid://13418521", "soprano sax", settings = {["Offset"] = 6}},
+   {"rbxassetid://13418521", "soprano sax", settings = {["Offset"] = 0}},
    {"rbxassetid://13418521", "alto sax", settings = {["Offset"] = 6}},
    {"rbxassetid://13418521", "tenor sax", settings = {["Offset"] = 6}},
    {"rbxassetid://13418521", "baritone sax", settings = {["Offset"] = 6}},
