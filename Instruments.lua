@@ -123,7 +123,7 @@ local instruments = {
    {"rbxassetid://13417380", "english horn"}, --???
    {"rbxassetid://13424334", "bassoon", settings = {["Offset"] = -11}},
    {"rbxassetid://9040512197", "clarinet", settings = {["Gain"] = -0.2, ["Loop"] = true, ["Offset"] = 3}},
-   {"rbxassetid://13424334", "piccolo", settings = {["Offset"] = 0}}, --fix
+   {"rbxassetid://13424334", "piccolo", settings = {["Offset"] = -10}}, --fix
    {"rbxassetid://9040512197", "flute", settings = {["Gain"] = -0.2, ["Loop"] = true, ["Offset"] = 3}}, --75338648
    {"rbxassetid://75338648", "recorder", settings = {["Offset"] = -13}},
    {"rbxassetid://9040512197", "pan flute", settings = {["Gain"] = -0.2, ["Loop"] = true, ["Offset"] = 3}},
