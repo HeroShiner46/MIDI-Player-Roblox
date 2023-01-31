@@ -91,9 +91,9 @@ local instruments = {
    {"rbxassetid://9040512330", "synth bass 1", settings = {["Gain"] = -0.2, ["Loop"] = true, ["Offset"] = 3}},
    {"rbxassetid://9040512330", "synth bass 2", settings = {["Gain"] = -0.2, ["Loop"] = true, ["Offset"] = 3}},
    {"rbxassetid://109618940", "synthbrass 1"},
-   {"rbxassetid://13418521", "violin", settings = {["Offset"] = 4}},
-   {"rbxassetid://12857654", "viola"},
-   {"rbxassetid://12857654", "cello"},
+   {"rbxassetid://13418521", "violin", settings = {["Offset"] = 0}},
+   {"rbxassetid://13418521", "viola"},
+   {"rbxassetid://13418521", "cello"},
    {"rbxassetid://9040512197", "contrabass", settings = {["Gain"] = -0.2, ["Loop"] = true, ["Offset"] = 3}},
    {"rbxassetid://109618940", "tremolo strings"},
    {"rbxassetid://584691395", "pizzicato strings", settings = {["Offset"] = 0, ["Gain"] = 0.8}},
@@ -123,7 +123,7 @@ local instruments = {
    {"rbxassetid://13417380", "english horn"}, --???
    {"rbxassetid://13424334", "bassoon", settings = {["Offset"] = -11}},
    {"rbxassetid://9040512197", "clarinet", settings = {["Gain"] = -0.2, ["Loop"] = true, ["Offset"] = 3}},
-   {"rbxassetid://13424334", "piccolo", settings = {["Offset"] = -10}}, --fix
+   {"rbxassetid://13424334", "piccolo", settings = {["Offset"] = -11}}, --fix
    {"rbxassetid://9040512197", "flute", settings = {["Gain"] = -0.2, ["Loop"] = true, ["Offset"] = 3}}, --75338648
    {"rbxassetid://75338648", "recorder", settings = {["Offset"] = -13}},
    {"rbxassetid://9040512197", "pan flute", settings = {["Gain"] = -0.2, ["Loop"] = true, ["Offset"] = 3}},
