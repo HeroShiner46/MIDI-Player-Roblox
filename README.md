@@ -5,4 +5,4 @@ NOTES: For drum kits the midi key is not a pitch but a different instrument, mak
 
 THIS REPOSITORY WILL UPDATE WHEN I FIND NEW INSTRUMENTS
 
-Thank you, GameHero and X32Gex5.
+Thank you, GameHero, Youngmacka and X32Gex5.
