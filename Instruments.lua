@@ -59,7 +59,7 @@ local instruments = {
    {"rbxasset://Sounds/electronicpingshort.wav", "clavinet", settings = {["Offset"] = -10}},
    {"rbxasset://Sounds/electronicpingshort.wav", "celesta", settings = {["Offset"] = -10}},
    {"rbxasset://Sounds/electronicpingshort.wav", "glockenspiel", settings = {["Offset"] = -10}},
-   {"rbxasset://Sounds/electronicpingshort.wav", "music box", settings = {["Offset"] = -10}},
+   {"rbxassetid://13424334", "music box", settings = {["Offset"] = -23}},
    {"rbxassetid://584691395", "vibraphone", settings = {["Gain"] = 0.8}},
    {"rbxasset://Sounds/electronicpingshort.wav", "marimba", settings = {["Offset"] = -10}},
    {"rbxassetid://19344667", "xylophone", settings = {["Offset"] = -1}},
@@ -91,16 +91,16 @@ local instruments = {
    {"rbxassetid://9040512330", "synth bass 1", settings = {["Gain"] = -0.2, ["Loop"] = true, ["Offset"] = 3}},
    {"rbxassetid://9040512330", "synth bass 2", settings = {["Gain"] = -0.2, ["Loop"] = true, ["Offset"] = 3}},
    {"rbxassetid://109618940", "synthbrass 1"},
-   {"rbxassetid://13418521", "violin", settings = {["Offset"] = 0}},
-   {"rbxassetid://13418521", "viola"},
-   {"rbxassetid://13418521", "cello"},
+   {"rbxassetid://13414759", "violin", settings = {["Offset"] = 4, ["Gain"] = 0.2}}, --13418521, -4
+   {"rbxassetid://13414759", "viola", settings = {["Offset"] = 4, ["Gain"] = 0.2}},
+   {"rbxassetid://4007485270", "cello", settings = {["Gain"] = 0.3, ["Offset"] = 1}},
    {"rbxassetid://9040512197", "contrabass", settings = {["Gain"] = -0.2, ["Loop"] = true, ["Offset"] = 3}},
    {"rbxassetid://109618940", "tremolo strings"},
    {"rbxassetid://584691395", "pizzicato strings", settings = {["Offset"] = 0, ["Gain"] = 0.8}},
    {"rbxassetid://109618940", "orchestral harp"}, --fix
    {"rbxassetid://109618940", "timpani"}, -- fix
-   {"rbxassetid://13414759", "string ensemble 1", settings = {["Offset"] = 0}}, --fix
-   {"rbxassetid://13414759", "string ensemble 2", settings = {["Offset"] = 0}}, --fix
+   {"rbxassetid://13414759", "string ensemble 1", settings = {["Offset"] = 4, ["Gain"] = 0.2}}, --fix
+   {"rbxassetid://13414759", "string ensemble 2", settings = {["Offset"] = 4, ["Gain"] = 0.2}}, --fix
    {"rbxassetid://11998777", "synthstrings 1"},
    {"rbxassetid://11998777", "synthstrings 2"},
    {"rbxassetid://9040512197", "choir aahs", settings = {["Gain"] = -0.2, ["Loop"] = true, ["Offset"] = 3}},
@@ -123,14 +123,14 @@ local instruments = {
    {"rbxassetid://13417380", "english horn"}, --???
    {"rbxassetid://13424334", "bassoon", settings = {["Offset"] = -11}},
    {"rbxassetid://9040512197", "clarinet", settings = {["Gain"] = -0.2, ["Loop"] = true, ["Offset"] = 3}},
-   {"rbxassetid://13424334", "piccolo", settings = {["Offset"] = -11}}, --fix
-   {"rbxassetid://9040512197", "flute", settings = {["Gain"] = -0.2, ["Loop"] = true, ["Offset"] = 3}}, --75338648
+   {"rbxassetid://13424334", "piccolo", settings = {["Offset"] = -23}}, --fix
+   {"rbxassetid://13424334", "flute", settings = {["Offset"] = -23}}, --75338648
    {"rbxassetid://75338648", "recorder", settings = {["Offset"] = -13}},
    {"rbxassetid://9040512197", "pan flute", settings = {["Gain"] = -0.2, ["Loop"] = true, ["Offset"] = 3}},
    {"rbxassetid://75338648", "blown bottle"},
    {"rbxassetid://75338648", "shakuhachi"},
-   {"rbxassetid://75338648", "whistle"},
-   {"rbxassetid://75338648", "ocarina"},
+   {"rbxassetid://13424334", "whistle", settings = {["Offset"] = -35}}, --neg 27
+   {"rbxassetid://13424334", "ocarina", settings = {["Offset"] = -35}},
    {"rbxassetid://9040512330", "lead 1 (square)", settings = {["Gain"] = -0.2, ["Loop"] = true, ["Offset"] = 3}},
    {"rbxassetid://9040512075", "lead 2 (sawtooth)", settings = {["Gain"] = -0.2, ["Loop"] = true, ["Offset"] = 3}},
    {"rbxassetid://9040512197", "lead 3 (calliope)", settings = {["Gain"] = -0.2, ["Loop"] = true, ["Offset"] = 3}},
@@ -160,12 +160,12 @@ local instruments = {
    {"rbxasset://Sounds/electronicpingshort.wav", "shamisen", settings = {["Offset"] = -10}},
    {"rbxassetid://12857654", "koto", settings = {["Offset"] = 0}},
    {"rbxasset://Sounds/electronicpingshort.wav", "kalimba", settings = {["Offset"] = -10}},
-   {"rbxassetid://13414758", "bag pipe"},
+   {"rbxassetid://13414759", "bag pipe", settings = {["Offset"] = 4, ["Gain"] = 0.2}},
    {"rbxassetid://12857654", "fiddle", settings = {["Offset"] = 0}},
    {"rbxassetid://19344667", "shanai"},
    {"rbxassetid://13114759", "tinkle bell"},
    {"rbxassetid://13114759", "agogo"}, --???
-   {"rbxasset://Sounds/electronicpingshort.wav", "steel drums", settings = {["Offset"] = -10}},
+   {"rbxassetid://12221967", "steel drums", settings = {["Offset"] = 6}},
    {"rbxassetid://31173820", "woodblock"},
    {"rbxassetid://31173820", "taiko drum"},
    {"rbxassetid://31173844", "melodic tom"},
@@ -180,5 +180,3 @@ local instruments = {
    {"rbxassetid://10209257", "applause"},
    {"rbxassetid://775395533", "chinese", settings = {["Offset"] = -6}} -- for the memes :)
 }
-
-return instruments
