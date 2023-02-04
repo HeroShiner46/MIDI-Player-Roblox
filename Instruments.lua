@@ -180,3 +180,4 @@ local instruments = {
    {"rbxassetid://10209257", "applause"},
    {"rbxassetid://775395533", "chinese", settings = {["Offset"] = -6}} -- for the memes :)
 }
+return instruments
