@@ -19,10 +19,11 @@ local instruments = {
       [45] = "rbxassetid://31173844",
       [50] = "rbxassetid://31173863",
       [48] = "rbxassetid://31173863",
-      [61] = "rbxassetid://57801983",
+      [60] = "rbxassetid://57801983",
+      [61] = "rbxassetid://57802134",
       [56] = "rbxassetid://57802212",
-      [76] = "rbxassetid://57802134",
-      [77] = "rbxassetid://57802055"
+      [76] = "rbxassetid://57801983",
+      [77] = "rbxassetid://57802134"
    }},
    {"rbxassetid://31173820", "2013 kit", settings = {["Gain"] = 0.1}, pitches = {
       [35] = "rbxassetid://31173820",
@@ -77,33 +78,33 @@ local instruments = {
    {"rbxassetid://31173820", "room kit"},
    {"rbxassetid://12857654", "harmonica"},
    {"rbxassetid://12857654", "tango accordion"}, --??
-   {"rbxassetid://4007485270", "acoustic guitar (nylon)", settings = {["Gain"] = 1, ["Offset"] = 1}},
-   {"rbxassetid://4007485270", "acoustic guitar (steel)", settings = {["Gain"] = 1, ["Offset"] = 1}},
+   {"rbxassetid://4007485270", "acoustic guitar (nylon)", settings = {["Gain"] = 1.5, ["Offset"] = 1}},
+   {"rbxassetid://4007485270", "acoustic guitar (steel)", settings = {["Gain"] = 1.5, ["Offset"] = 1}},
    {"rbxassetid://1089403", "electric guitar (jazz)", settings = {["Gain"] = 0.5, ["Offset"] = 15}}, --1089403, 15
    {"rbxassetid://1089403", "electric guitar (clean)", settings = {["Gain"] = 0.5, ["Offset"] = 15}},
-   {"rbxassetid://1089403", "electric guitar (muted)", settings = {["Gain"] = 0.5, ["Offset"] = 15}},
-   {"rbxassetid://1089403", "overdriven guitar", settings = {["Gain"] = 0.5, ["Offset"] = 15}},
+   {"rbxassetid://15666462", "electric guitar (muted)", settings = {["Offset"] = -9}},
+   {"rbxassetid://4582790360", "overdriven guitar", settings = {["Gain"] = 0, ["Offset"] = -2}},
    {"rbxassetid://1089403", "distortion guitar", settings = {["Gain"] = 0.5, ["Offset"] = 15}},
    {"rbxassetid://4007485270", "guitar harmonics", settings = {["Gain"] = 1, ["Offset"] = 1}},
    {"rbxassetid://9040512197", "acoustic bass", settings = {["Gain"] = -0.2, ["Loop"] = true, ["Offset"] = 3}},
-   {"rbxassetid://15666462", "electric bass (finger)", settings = {["Offset"] = -9}},
-   {"rbxassetid://15666462", "electric bass (pick)", settings = {["Offset"] = -9}},
+   {"rbxassetid://9040512197", "electric bass (finger)", settings = {["Gain"] = -0.2, ["Loop"] = true, ["Offset"] = 3}},
+   {"rbxassetid://4007485270", "electric bass (pick)", settings = {["Offset"] = 1}},
    {"rbxassetid://15666462", "fretless bass", settings = {["Offset"] = -9}},
    {"rbxassetid://4007485270", "slap bass 1", settings = {["Offset"] = 1}},
    {"rbxassetid://4007485270", "slap bass 2", settings = {["Offset"] = 1}},
    {"rbxassetid://9040512330", "synth bass 1", settings = {["Gain"] = -0.2, ["Loop"] = true, ["Offset"] = 3}},
    {"rbxassetid://9040512330", "synth bass 2", settings = {["Gain"] = -0.2, ["Loop"] = true, ["Offset"] = 3}},
    {"rbxassetid://109618940", "synthbrass 1"},
-   {"rbxassetid://1846986758", "violin", settings = {["Offset"] = 3, ["Gain"] = -0.2}}, --fix
-   {"rbxassetid://1846986758", "viola", settings = {["Offset"] = 3}},
-   {"rbxassetid://1846986758", "cello", settings = {["Offset"] = 3}},
+   {"rbxassetid://1846986758", "violin", settings = {["Offset"] = 3, ["Gain"] = 0}}, --fix
+   {"rbxassetid://1846986758", "viola", settings = {["Offset"] = 3, ["Gain"] = 0}},
+   {"rbxassetid://1846986758", "cello", settings = {["Offset"] = 3, ["Gain"] = 0}},
    {"rbxassetid://9040512197", "contrabass", settings = {["Gain"] = -0.2, ["Loop"] = true, ["Offset"] = 3}},
    {"rbxassetid://109618940", "tremolo strings"},
    {"rbxassetid://584691395", "pizzicato strings", settings = {["Offset"] = 0, ["Gain"] = 0.8}},
    {"rbxassetid://109618940", "orchestral harp"}, --fix
    {"rbxassetid://109618940", "timpani"}, -- fix
-   {"rbxassetid://1846986758", "string ensemble 1", settings = {["Offset"] = 3, ["Gain"] = -0.2}}, --fix
-   {"rbxassetid://1846986758", "string ensemble 2", settings = {["Offset"] = 3, ["Gain"] = -0.2}}, --fix
+   {"rbxassetid://13414759", "string ensemble 1", settings = {["Offset"] = 4, ["Gain"] = 0.2}}, --fix
+   {"rbxassetid://13414759", "string ensemble 2", settings = {["Offset"] = 4, ["Gain"] = 0.2}}, --fix
    {"rbxassetid://11998777", "synthstrings 1"},
    {"rbxassetid://11998777", "synthstrings 2"},
    {"rbxassetid://9040512197", "choir aahs", settings = {["Gain"] = -0.2, ["Loop"] = true, ["Offset"] = 3}},
@@ -143,7 +144,7 @@ local instruments = {
    {"rbxassetid://9040512197", "lead 7 (fifths)", settings = {["Gain"] = -0.2, ["Loop"] = true, ["Offset"] = 3}},
    {"rbxassetid://9085536418", "lead 8 (bass + lead)", settings = {["Gain"] = -0.2, ["Loop"] = true, ["Offset"] = 3}},
    {"rbxassetid://109618842", "pad 1 (new age)", settings = {["Offset"] = -12}},
-   {"rbxassetid://1846986758", "pad 2 (warm)", settings = {["Offset"] = 3, ["Gain"] = -0.2}},
+   {"rbxassetid://13414759", "pad 2 (warm)", settings = {["Offset"] = 4, ["Gain"] = 0.2}},
    {"rbxassetid://9040512075", "pad 3 (polysynth)", settings = {["Gain"] = -0.2, ["Loop"] = true, ["Offset"] = 3}},
    {"rbxassetid://9040512197", "pad 4 (choir)", settings = {["Gain"] = -0.2, ["Loop"] = true, ["Offset"] = 3}},
    {"rbxasset://Sounds/bass.wav", "pad 5 (bowed)"},
@@ -185,4 +186,4 @@ local instruments = {
    {"rbxassetid://7149516994", "ding", settings = {["Offset"] = -6}}
 }
 
-return instruments
+-- new stuff added all I need to do is get rid of the fricking pad sounds
