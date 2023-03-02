@@ -82,8 +82,8 @@ local instruments = {
    {"rbxassetid://4007485270", "acoustic guitar (steel)", settings = {["Gain"] = 1.5, ["Offset"] = 1}},
    {"rbxassetid://1089403", "electric guitar (jazz)", settings = {["Gain"] = 0.5, ["Offset"] = 15}}, --1089403, 15
    {"rbxassetid://1089403", "electric guitar (clean)", settings = {["Gain"] = 0.5, ["Offset"] = 15}},
-   {"rbxassetid://15666462", "electric guitar (muted)", settings = {["Offset"] = -9}},
-   {"rbxassetid://4582790360", "overdriven guitar", settings = {["Gain"] = 0, ["Offset"] = -2}},
+   {"rbxassetid://1089403", "electric guitar (muted)", settings = {["Gain"] = 0.5, ["Offset"] = 15}},
+   {"rbxassetid://4582790360", "overdriven guitar", settings = {["Gain"] = -0.1, ["Offset"] = -2}},
    {"rbxassetid://1089403", "distortion guitar", settings = {["Gain"] = 0.5, ["Offset"] = 15}},
    {"rbxassetid://4007485270", "guitar harmonics", settings = {["Gain"] = 1, ["Offset"] = 1}},
    {"rbxassetid://9040512197", "acoustic bass", settings = {["Gain"] = -0.2, ["Loop"] = true, ["Offset"] = 3}},
@@ -95,9 +95,9 @@ local instruments = {
    {"rbxassetid://9040512330", "synth bass 1", settings = {["Gain"] = -0.2, ["Loop"] = true, ["Offset"] = 3}},
    {"rbxassetid://9040512330", "synth bass 2", settings = {["Gain"] = -0.2, ["Loop"] = true, ["Offset"] = 3}},
    {"rbxassetid://109618940", "synthbrass 1"},
-   {"rbxassetid://1846986758", "violin", settings = {["Offset"] = 3, ["Gain"] = 0}}, --fix
-   {"rbxassetid://1846986758", "viola", settings = {["Offset"] = 3, ["Gain"] = 0}},
-   {"rbxassetid://1846986758", "cello", settings = {["Offset"] = 3, ["Gain"] = 0}},
+   {"rbxassetid://13414759", "violin", settings = {["Offset"] = 4, ["Gain"] = 0.2}}, --fix
+   {"rbxassetid://13414759", "viola", settings = {["Offset"] = 4, ["Gain"] = 0.2}},
+   {"rbxassetid://13414759", "cello", settings = {["Offset"] = 4, ["Gain"] = 0.2}},
    {"rbxassetid://9040512197", "contrabass", settings = {["Gain"] = -0.2, ["Loop"] = true, ["Offset"] = 3}},
    {"rbxassetid://109618940", "tremolo strings"},
    {"rbxassetid://584691395", "pizzicato strings", settings = {["Offset"] = 0, ["Gain"] = 0.8}},
@@ -169,7 +169,7 @@ local instruments = {
    {"rbxassetid://19344667", "shanai"},
    {"rbxassetid://13114759", "tinkle bell"},
    {"rbxassetid://13114759", "agogo"}, --???
-   {"rbxassetid://12221967", "steel drums", settings = {["Offset"] = 6}},
+   {"rbxassetid://31173820", "steel drums"},
    {"rbxassetid://31173820", "woodblock"},
    {"rbxassetid://31173820", "taiko drum"},
    {"rbxassetid://31173844", "melodic tom"},
@@ -186,4 +186,4 @@ local instruments = {
    {"rbxassetid://7149516994", "ding", settings = {["Offset"] = -6}}
 }
 
--- new stuff added all I need to do is get rid of the fricking pad sounds
+-- need to do stupid pads
