@@ -186,4 +186,6 @@ local instruments = {
    {"rbxassetid://7149516994", "ding", settings = {["Offset"] = -6}}
 }
 
+return instruments
+
 -- all done, only one thing left to do...
