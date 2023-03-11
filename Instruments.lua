@@ -95,9 +95,9 @@ local instruments = {
    {"rbxassetid://9040512330", "synth bass 1", settings = {["Gain"] = -0.2, ["Loop"] = true, ["Offset"] = 3}},
    {"rbxassetid://9040512330", "synth bass 2", settings = {["Gain"] = -0.2, ["Loop"] = true, ["Offset"] = 3}},
    {"rbxassetid://109618940", "synthbrass 1"},
-   {"rbxassetid://13418521", "violin", settings = {["Offset"] = 4}}, --fix
-   {"rbxassetid://13418521", "viola", settings = {["Offset"] = 4}},
-   {"rbxassetid://13418521", "cello", settings = {["Offset"] = 4}},
+   {"rbxassetid://13414759", "violin", settings = {["Offset"] = 4, ["Gain"] = 0.2, ["Cut"] = 0.2}}, --fix
+   {"rbxassetid://13414759", "viola", settings = {["Offset"] = 4, ["Gain"] = 0.2, ["Cut"] = 0.2}},
+   {"rbxassetid://13414759", "cello", settings = {["Offset"] = 4, ["Gain"] = 0.2, ["Cut"] = 0.2}},
    {"rbxassetid://9040512197", "contrabass", settings = {["Gain"] = -0.2, ["Loop"] = true, ["Offset"] = 3}},
    {"rbxassetid://109618940", "tremolo strings"},
    {"rbxassetid://584691395", "pizzicato strings", settings = {["Offset"] = 0, ["Gain"] = 0.8}},
